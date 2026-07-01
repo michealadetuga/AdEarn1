@@ -1,4 +1,25 @@
+<<<<<<< HEAD
 node_modules/
 dist/
 .env
 *.log
+=======
+/packages/**/*/dist/
+/examples/
+/dist
+/packages/@apphosting/publish-dev/.local
+/packages/@apphosting/publish-dev/htpasswd
+
+# NPM
+node_modules
+
+# misc
+.vscode
+*.log
+.DS_Store
+/apphosting-*.tgz
+/firebase-frameworks-*.tgz
+
+# firebase
+.firebase
+>>>>>>> debb1b75b6b4dd50dff5f96c460aa2107b0906b4

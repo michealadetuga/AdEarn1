@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2020",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
@@ -20,4 +21,21 @@
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
+=======
+    "noEmit": true,
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node", "mocha"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "paths": {
+      "firebase-frameworks": ["./packages/firebase-frameworks"],
+      "@apphosting/*": ["./packages/@apphosting/*"],
+    }
+  }
+>>>>>>> debb1b75b6b4dd50dff5f96c460aa2107b0906b4
 }
