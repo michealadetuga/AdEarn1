@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: adearn-server
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: node dist/index.js
+    healthCheckPath: /api/health
